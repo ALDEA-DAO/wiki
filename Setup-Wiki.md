@@ -13,7 +13,7 @@ sudo nano /etc/hostname
 Luego también procedemos a cambiar el archivo hosts.
 
 ```bash
-sudo nano /etc/hostname
+sudo nano /etc/hosts
 ```
 
 Este comando abre el archivo `/etc/hosts` en el editor `nano`. Aquí, puedes asignar la dirección IP del servidor al nombre del host. Asegúrate de que la línea correspondiente a la dirección IP `127.0.1.1` incluya el nombre del host que configuraste en el paso anterior.
